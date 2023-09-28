@@ -26,12 +26,12 @@ int _findsqrt(int n, int square)
  * Return: The square root
 */
 
-int _sqrt_recursion(int number)
+int _sqrt_recursion(int n)
 {
-	if (number == 0 || number == 1)
-		return (number);
-	else if (number < 0)
+	if (n == 0 || n == 1)
+		return (n);
+	else if (n < 0)
 		return (-1);
 	else
-		return (_findsqrt(number, 1));
+		return (_findsqrt(n, 1));
 }
