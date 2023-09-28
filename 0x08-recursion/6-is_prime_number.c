@@ -2,8 +2,8 @@
 
 /**
  * _primecheck - Calculates if a number is prime recursively
- * @num: The number to evaluate
- * @div: The iterator
+ * @n: The number to evaluate
+ * @d: The iterator
  *
  * Return: 1 if num is prime, 0 if not
  */
